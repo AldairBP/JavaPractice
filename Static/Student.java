@@ -1,3 +1,5 @@
+// In this program is shown how the static variables works
+
 public class Student {
     String name;
     int age;
