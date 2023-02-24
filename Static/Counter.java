@@ -1,5 +1,3 @@
-import javax.lang.model.util.ElementScanner14;
-
 // In this program is shown how the static methods works
 // In this case we simulate a counter for the students that are in the school
 public class Counter {
@@ -9,7 +7,7 @@ public class Counter {
 
     public static String add(int studentsNumber) {
         studentsCount = studentsCount + studentsNumber;
-        return "The number of students in the school is = " + studentsCount;
+        return "The number of students at the school is = " + studentsCount;
     }
 
     public static String substract(int studentsNumber) {
