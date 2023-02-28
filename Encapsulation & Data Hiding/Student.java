@@ -1,11 +1,11 @@
-public class Students {
+public class Student {
     // Protecting the data by using the access modifier "private"
     private static int id = 2302000;
     private String name;
     private float grade;
 
     // Generating a constructor
-    public Students(String name, float grade) {
+    public Student(String name, float grade) {
         id++;
         this.name = name;
         this.grade = grade;
